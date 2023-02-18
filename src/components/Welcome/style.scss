@@ -1,11 +1,17 @@
 #welcome {
-  padding-top: 145px;
+  @media (min-width: 768px) {
+    padding-top: 145px;
+  }
+  padding-top: 60px;
 
   .welcome-message {
     font-size: 1.06rem;
     word-spacing: 2px;
     line-height: 27px;
     width: 90%;
+    @media (max-width: 767px) {
+      margin: 0 auto;
+    }
 
     h1 {
       font-weight: 700;
@@ -26,7 +32,7 @@
 
     h1,
     .lead {
-      margin-bottom: 35px;
+      margin-bottom: 25px;
     }
   }
 

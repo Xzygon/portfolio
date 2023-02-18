@@ -1,7 +1,7 @@
 import React from 'react';
 
 import images from '../../assets/images';
-import resume from '../../basilmeer-resume-jan-2020.pdf';
+import resume from '../../Brazen_Abelgas_Resume.pdf';
 
 const Welcome = () => {
   return (
@@ -9,23 +9,23 @@ const Welcome = () => {
       <div className='row'>
         <div className='col-12 col-md-8 order-2 order-md-1'>
           <div className='welcome-message'>
-            <h1 className='display-4'>
+            <h1 className='display-2'>
               Hey there!
             </h1>
             <p className='lead'>
-              I'm <span className='font-weight-bold'>Basil Meer</span>, a{' '}
-              <span className='font-weight-bold'>Full-Stack Developer</span>
-              {' '}from <span className='font-weight-bold'>Pakistan</span>. I
-              make stuff using{' '}
-              <span className='font-weight-bold'>React.js</span>,{' '}
-              <span className='font-weight-bold'>Ruby on Rails</span>,{' '}
-              <span className='font-weight-bold'>PostgreSQL</span> and{' '}
-              <span className='font-weight-bold'>Apollo GraphQL</span>. If
+              I'm <span className='fw-bold'>Brazen Abelgas</span>, a{' '}
+              <span className='fw-bold'>Unity Software Engineer</span>
+              {' '}from <span className='fw-bold'>California</span>. I
+              design and code software and video games using{' '}
+              <span className='fw-bold'>Unity</span>,{' '}
+              <span className='fw-bold'>Maya3D</span>,{' '}
+              <span className='fw-bold'>MySQL</span> and{' '}
+              <span className='fw-bold'>Parse</span>. If
               you've got something in the works that needs to be done, then I
               might just turn out to be the right fit for the job! Hit me up at{' '}
               <span className='anchor-fancy'>
-                <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
-                  hello@basilmeer.com
+                <a href='mailto:brazen.abelgas@gmail.com' rel='noopener noreferrer'>
+                  brazen.abelgas@gmail.com
                 </a>
               </span>
               {' '} and maybe we can work something out!
@@ -40,7 +40,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className='col-12 col-md-4 order-1 order-md-2 text-center text-right'>
-          <img src={images.basil} alt='' className='img-fluid img-me' />
+          <img src={images.brazen} alt='' className='img-fluid img-me' />
         </div>
       </div>
     </div>

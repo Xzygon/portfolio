@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import PortfolioItem from './PortfolioItem';
 import portfolioList from './portfolioList.json';
 import Pagination from '../Pagination';
 
-const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
+const Portfolio = ({ defaultItems, showPagination }) => {
   const [portfolio, setPortfolio] = useState([]);
   const [activePage, setActivePage] = useState(0);
   const numberOfPages = Math.ceil(portfolioList.length / defaultItems);
@@ -31,9 +30,8 @@ const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
     <div id='portfolio'>
       <div className='content-container'>
         <div className='page-header text-center'>
-          <h2 className='display-4 text-left font-weight-extra-bold'>
-            Stuff I've made over <br />
-            the past few years
+          <h2 className='display-2 text-start'>
+            Projects I've worked on
           </h2>
         </div>
         <div className='portfolio-tiles mt-5 mb-3'>
@@ -51,11 +49,6 @@ const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
                 );
             })}
         </div>
-        {showMoreLink && (
-          <Link to='/projects' className='btn button-shadow mt-4 mx-auto'>
-            View More Projects
-          </Link>
-        )}
         {showPagination && (
           <Pagination
             numberOfPages={numberOfPages}

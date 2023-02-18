@@ -6,17 +6,17 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Snackbar = () => (
   <ul className='snackbar'>
     <li>
-      <a href='mailto:hello@basilmeer.com'>
+      <a href='mailto:brazen.abelgas@gmail.com'>
         <FontAwesomeIcon icon={faEnvelope} size='lg' />
       </a>
     </li>
     <li>
-      <a href='https://www.linkedin.com/in/basilmeer/'>
+      <a href='https://www.linkedin.com/in/brazenabelgas/'>
         <FontAwesomeIcon icon={faLinkedin} size='lg' />
       </a>
     </li>
     <li>
-      <a href='https://github.com/basilmeer/'>
+      <a href='https://github.com/Xzygon/'>
         <FontAwesomeIcon icon={faGithub} size='lg' />
       </a>
     </li>

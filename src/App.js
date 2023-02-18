@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Snackbar from './components/Snackbar';
 import Welcome from './components/Welcome';
 import Footer from './components/Footer';
@@ -36,7 +35,6 @@ export default () => {
             showPagination={false}
             showMoreLink={true}
           />
-          <Contact />
           <Footer />
         </Route>
         <Route exact path='/projects'>
