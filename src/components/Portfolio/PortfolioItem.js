@@ -6,7 +6,8 @@ import images from '../../assets/images';
 
 const PortfolioItem = (props) => {
   const { title, content, href } = props;
-  const thumbnailName = title?.replace(/\s|-/g, '_').toLowerCase();
+  const thumbnailName = title?.replace(/\s|-|:/g, '_').toLowerCase();
+
   return (
     <a
       href={href}
