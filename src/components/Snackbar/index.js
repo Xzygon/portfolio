@@ -1,10 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faItchIo } from '@fortawesome/free-brands-svg-icons';
 
 const Snackbar = () => (
   <ul className='snackbar'>
+    <li>
+      <a href='https://raweggdevelopment.itch.io'>
+        <FontAwesomeIcon icon={faItchIo} size='lg' />
+      </a>
+    </li>
     <li>
       <a href='mailto:brazen.abelgas@gmail.com'>
         <FontAwesomeIcon icon={faEnvelope} size='lg' />

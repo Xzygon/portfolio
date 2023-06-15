@@ -3,5 +3,15 @@
     "title": "JTAC Virtual Trainer",
     "content": "A virtual trainer that provides portable accessibility to a highly realistic virtual JTAC training environment, saving the military thousands of dollars by moving away from training environments that only previously existed in fixed dome sites.",
     "href": "https://www.navysbir.com/docs/ngc22/Xiphos-ngc22.pdf"
-  }
+  },
+  {
+    "title": "Bloom",
+    "content": "A 3D labyrinth-esque puzzle game where the player must manipulate the different faces of an object to create a path from the deer to its goal.",
+    "href": "https://laboratori.itch.io/bloom"
+  },
+  {
+    "title": "Doctor Eisenbarth: Traveling Physician",
+    "content": "A comedic take on some of Grimms' Fairy Tales with an emphasis on light-hearted narration and spinning the tales with fun, alternate endings.",
+    "href": "https://emstergrace.itch.io/doctoreisenbarth"
+  },
 ]

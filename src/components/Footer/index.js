@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faItchIo } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
   <div className='content-container'>
@@ -11,6 +11,11 @@ const Footer = () => (
         <div className='col-8 social-media-links'>
           <ul className='list-inline list-unstyled'>
             <li className='list-inline-item'>You can also find me here:</li>
+            <li className='list-inline-item'>
+              <a href='https://raweggdevelopment.itch.io' rel='noopener noreferrer'>
+                <FontAwesomeIcon icon={faItchIo} />
+              </a>
+            </li>
             <li className='list-inline-item'>
               <a href='mailto:brazen.abelgas@gmail.com' rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faEnvelope} />
