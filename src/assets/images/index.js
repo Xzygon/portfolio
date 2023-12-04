@@ -4,6 +4,7 @@ const images = {
   doctor_eisenbarth__traveling_physician: require('./doctor_eisenbarth__traveling_physician.png'),
   brazen: require('./brazen_abelgas.jpeg'),
   icon_dark: require('./b_icon_darkmode.svg'),
+  cozy_cafe: require('./cozy_cafe.png'),
 };
 
 export default images;
